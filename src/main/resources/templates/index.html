@@ -29,7 +29,7 @@
     </div>
 </div>
 
-<div class="container">
+<div class="container footer-friendly-md">
     <div class="row">
         <div class="col-md-12">
             <h1 th:text="#{index.courses.headline}">Courses Headline</h1>
@@ -267,6 +267,10 @@
             </div>
         </div>
     </div>
+</div>
+
+<div class="container" th:replace="fragments/footer :: footer">
+    <p>footer</p>
 </div>
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

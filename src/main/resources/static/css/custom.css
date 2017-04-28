@@ -113,3 +113,11 @@ img {
     font-weight: 200;
     line-height: 30px;
 }
+
+.footer-friendly-md {
+    margin-bottom: 50px;
+}
+
+.footer-friendly-lg {
+    margin-bottom: 75px;
+}

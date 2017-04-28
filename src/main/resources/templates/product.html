@@ -29,7 +29,7 @@
     </div>
 </div>
 
-<div class="container">
+<div class="container footer-friendly-lg">
     <div class="row">
         <div class="col-md-12">
             <h1>Spring Framework Guru - Course Name</h1>
@@ -64,6 +64,10 @@
             <button class="btn-success" th:text="#{button.buy.now}">Buy Now!</button>
         </div>
     </div>
+</div>
+
+<div class="container" th:replace="fragments/footer :: footer">
+    <p>footer</p>
 </div>
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
