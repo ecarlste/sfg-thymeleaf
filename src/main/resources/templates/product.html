@@ -29,7 +29,7 @@
     </div>
 </div>
 
-<div class="container" style="height: 100vh;">
+<div class="container footer-friendly-lg">
     <div class="row">
         <div class="col-md-12">
             <h1 th:text="${product.courseName}">Spring Framework Guru - Course Name</h1>
@@ -56,7 +56,7 @@
                     </div>
                 </div>
                 <div class="col-xs-4">
-                    <div class="small course-price" th:text="${product.price > 0 ? product.price : 'FREE'}">
+                    <div class="small course-price" th:text="${product.price > 0 ? '$' + product.price : 'FREE'}">
                         $PRICE
                     </div>
                 </div>
