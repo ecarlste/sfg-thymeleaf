@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" />
+    <title th:text="#{index.page.title}">Page Title</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" th:href="@{/bootstrap/css/bootstrap.min.css}"
+          href="../../static/bootstrap/css/bootstrap.min.css" />
+
+    <link rel="stylesheet" th:href="@{/css/custom.css}" href="../../static/css/custom.css" />
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+<div class="jumbotron" th:fragment="jumbotron">
+    <div class="container">
+        <h1>Spring Framework Guru</h1>
+        <p class="lead" th:text="#{index.courses.tagline}">Tag line</p>
+    </div>
+</div>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script th:src="@{/jquery/jquery-3.2.1.min.js}"
+        src="../../static/jquery/jquery-3.2.1.min.js"></script>
+</body>
+</html>
