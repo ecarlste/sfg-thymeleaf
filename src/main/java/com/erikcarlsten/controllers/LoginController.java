@@ -17,17 +17,17 @@ public class LoginController {
 
         model.addAttribute("loginCommand", new LoginCommand());
 
-        return "login-form";
+        return "login";
     }
 
     @PostMapping("/dologin")
     public String doLogin(@Valid LoginCommand loginCommand, BindingResult bindingResult) {
 
         if (bindingResult.hasErrors()) {
-            return "login-form";
+            return "login";
         }
 
-        return "login-complete";
+        return "redirect:/";
     }
 
 }
