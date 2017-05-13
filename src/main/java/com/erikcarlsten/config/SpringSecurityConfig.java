@@ -24,7 +24,7 @@ public class SpringSecurityConfig extends WebSecurityConfigurerAdapter {
                 .antMatchers("/", "/index/**", "/product/**", "/checkout", "/docheckout").permitAll()
                 .and().authorizeRequests().antMatchers("/login", "logout").permitAll()
                 .and().authorizeRequests()
-                .antMatchers("/static/css/**", "/js/**", "/images/**", "/**/favicon.ico").permitAll()
+                .antMatchers("/static/css/**", "/js/**", "/img/**", "/**/favicon.ico").permitAll()
                 .and().formLogin().loginPage("/login").defaultSuccessUrl("/").permitAll()
                 .and().logout()
                 .deleteCookies("remove")
