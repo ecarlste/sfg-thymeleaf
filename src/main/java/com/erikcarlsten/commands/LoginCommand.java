@@ -9,11 +9,11 @@ import javax.validation.constraints.Size;
 public class LoginCommand {
 
     @NotEmpty
-    @Size(min = 8, max = 50)
+    @Size(min = 4, max = 50)
     private String username;
 
     @NotEmpty
-    @Size(min = 8, max = 20)
+    @Size(min = 4, max = 20)
     private String password;
 
 }
