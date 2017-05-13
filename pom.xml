@@ -5,7 +5,7 @@
 
 	<groupId>com.erikcarlsten</groupId>
 	<artifactId>sfg-thymeleaf</artifactId>
-	<version>0.0.5-SNAPSHOT</version>
+	<version>0.0.5.RELEASE</version>
 	<packaging>jar</packaging>
 
 	<name>sfg-thymeleaf</name>
