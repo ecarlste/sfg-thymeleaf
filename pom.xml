@@ -5,7 +5,7 @@
 
 	<groupId>com.erikcarlsten</groupId>
 	<artifactId>sfg-thymeleaf</artifactId>
-	<version>0.0.3.RELEASE</version>
+	<version>0.0.4.RELEASE</version>
 	<packaging>jar</packaging>
 
 	<name>sfg-thymeleaf</name>
@@ -38,6 +38,11 @@
             <artifactId>spring-boot-devtools</artifactId>
             <version>1.5.2.RELEASE</version>
         </dependency>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<optional>true</optional>
+		</dependency>
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
